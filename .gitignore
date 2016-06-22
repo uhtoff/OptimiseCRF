@@ -3,3 +3,7 @@
 .htaccess
 libs/serverconfig.php
 .idea/
+apple-*
+favicon*
+mstile*
+browserconfig.xml
