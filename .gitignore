@@ -4,7 +4,10 @@
 libs/serverconfig.php
 libs/trialconfig.php
 .idea/
+android-*
 apple-*
 favicon*
 mstile*
 browserconfig.xml
+manifest.json
+safari*
