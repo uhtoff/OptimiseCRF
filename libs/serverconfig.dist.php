@@ -52,6 +52,6 @@ addIncludePath('/addons');
 spl_autoload_register( 'loadClass' );
 date_default_timezone_set( 'Europe/London' );
 ini_set('default_charset', 'UTF-8');
-ini_set('display_errors', true ); # Change error reporting when move to prod
-ini_set('error_reporting', E_ALL | E_STRICT); # Change error reporting when move to prod
+ini_set('error_reporting', E_ALL | E_STRICT);
+ini_set('display_errors', true ); # Change error display when move to prod
 mb_internal_encoding('utf-8');
