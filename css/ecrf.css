@@ -36,7 +36,7 @@
 
   /* Adds a background image to the wrapping div with class background */
   div#wrap.background {
-	  background-image: url("/img/PRISM_logo_trans.png");
+	  background-image: url("/img/trial_logo_trans.png");
 	background-repeat:no-repeat;
 	background-position: center center;
   }
