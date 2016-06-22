@@ -41,6 +41,10 @@
 	background-position: center center;
   }
 
+  .brand > img {
+	  padding-right: 10px;
+  }
+
 
   /* Custom page CSS
   -------------------------------------------------- */
