@@ -8,9 +8,6 @@ if ( php_sapi_name() === 'cli' ) {
 require( $path . '/libs/serverconfig.php');
 require( $path . '/libs/trialconfig.php');
 
-addIncludePath('/classes');
-addIncludePath('/addons');
-
 if ( !DB::setDB($db) ) {
     exit( 'Unable to set database' );
 }
