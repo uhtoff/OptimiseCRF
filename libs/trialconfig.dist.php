@@ -1,4 +1,6 @@
 <?php
+DB::setDB( "db", "db_user", "db_password" );
+$db = 'db';
 $trial = 'Trial';
 Config::set('userdb', $db);
 Config::set('database', $db);
