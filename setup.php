@@ -11,17 +11,9 @@ require( $path . '/libs/trialconfig.php');
 addIncludePath('/classes');
 addIncludePath('/addons');
 
-$trial = 'OPTIMISE II';
-Config::set('userdb', $db);
-Config::set('database', $db);
-Config::set('trial', $trial);
-Config::set('idName', 'OPTIMISE II ID');
-
 if ( !DB::setDB($db) ) {
     exit( 'Unable to set database' );
 }
-
 require( 'ecrflib.php' );
 require( 'mainlib.php' );
-session_name('OPTIMISEII');
 ?>
